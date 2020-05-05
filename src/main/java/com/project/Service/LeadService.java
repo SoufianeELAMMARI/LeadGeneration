@@ -23,7 +23,7 @@ import java.util.List;
 @Service
 public class LeadService {
 
-    private static final String apiYoutube = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=gD3KOVAD62k&key=AIzaSyAObvP_pWs_joK5QIyEiaqLL3r9QgUdCR8&maxResults=100";
+    private static final String apiYoutube = "";
     private static final String apiFacebook = "https://graph.facebook.com/v2.12/me?fields=id%2Cname%2Cposts%7Bcomments%7D&access_token=EAAMsyAHsNAQBADoSA6t83W9MnNT5bpuCzrxQZAMeEoOARlsXBa3B19al8zMlZAxzDnMHx9AE1EFYi1zokvqUWkVkxGOHeswXghBpH66yvA2csfMYSedEt2I8ON8uU6ZCnWGHOaW58eZA5d3SGSG1B4pPN1eczsziKQZBHtOdocgZDZD";
 
     @Autowired
